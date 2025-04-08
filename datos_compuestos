@@ -1,0 +1,26 @@
+#Coleccion de datos
+
+#LISTAS, colecciones ordenadas de datos o elementos mutables
+lista = ["Benjamin Gomez", 19, True]
+print(lista)
+print(type(lista))
+
+print([45,46,47])
+print(type([45,46,47]))
+
+print(lista[1])
+lista[1] = 35
+print(lista)
+
+# diccionarios, colecciones ordenadas de pares o elementos mutables
+diccionario = {"nombre":"Benjamin Gomez","edad":19,"es_alumno": True}
+print(diccionario)
+print(type(diccionario))
+print(diccionario["edad"])
+diccionario["edad"] = 19
+print(diccionario)
+
+# CONJUNTOS, coleccion desordenadas de elementos
+conjunto = {"Benjamin Gomez", 19, True}
+print(conjunto)
+print(type(conjunto))
