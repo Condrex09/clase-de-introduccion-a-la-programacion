@@ -41,3 +41,5 @@ print()
 for elemento in conjunto:
     if type(elemento) == str:
         print(elemento)
+
+ uhv         
